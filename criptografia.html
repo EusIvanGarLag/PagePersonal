@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Criptografía - [Tu Nombre]</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-800 hover:text-indigo-600 transition duration-300">
+                [Tu Nombre]
+            </a>
+            <button id="menu-button" class="md:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path id="open-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path><path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div class="hidden md:flex space-x-6">
+                <a href="academica.html" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Formación Académica</a>
+                <a href="hobbies.html" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Hobbies</a>
+                <a href="criptografia.html" class="text-indigo-600 font-medium transition duration-300 border-b-2 border-indigo-600">Criptografía</a>
+                <a href="mailto:tu.correo@ejemplo.com" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">
+                    tu.correo@ejemplo.com
+                </a>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-2 pt-2 pb-3 space-y-1">
+            <a href="academica.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50 hover:text-indigo-600">Formación Académica</a>
+            <a href="hobbies.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50 hover:text-indigo-600">Hobbies</a>
+            <a href="criptografia.html" class="block px-3 py-2 rounded-md text-base font-medium text-indigo-600 bg-indigo-50">Acerca de Criptografía</a>
+            <a href="mailto:tu.correo@ejemplo.com" class="block px-3 py-2 rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50 hover:text-indigo-800">
+                Correo: tu.correo@ejemplo.com
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 class="text-4xl font-extrabold text-gray-900 mb-8 border-b-4 border-indigo-600 pb-2">
+            El Algoritmo RSA: Pilar de la Criptografía Moderna
+        </h1>
+
+        <div class="bg-white p-6 md:p-10 rounded-lg shadow-xl">
+            <p class="text-xl text-gray-700 mb-6 border-l-4 border-indigo-600 pl-4 italic">
+                El algoritmo RSA es uno de los primeros sistemas de criptografía de clave pública y es fundamental para la seguridad en las comunicaciones de Internet. Su funcionamiento se basa en la dificultad de factorizar números grandes.
+            </p>
+
+            <div class="mb-8">
+                <h2 class="text-3xl font-semibold text-gray-800 mb-3">Los Criptógrafos: Rivest, Shamir y Adleman</h2>
+                <div class="flex flex-wrap gap-4">
+                    <span class="inline-block bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full font-medium">Ronald Rivest</span>
+                    <span class="inline-block bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full font-medium">Adi Shamir</span>
+                    <span class="inline-block bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full font-medium">Leonard Adleman</span>
+                </div>
+                <p class="text-gray-600 mt-4">
+                    El algoritmo fue descrito públicamente en 1977 por Ron Rivest, Adi Shamir y Leonard Adleman, investigadores del MIT. Las iniciales de sus apellidos forman el acrónimo RSA.
+                </p>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="text-3xl font-semibold text-gray-800 mb-3">Funcionamiento y Aplicaciones Clave</h2>
+                <p class="text-gray-700 mb-4">
+                    RSA utiliza un par de claves: una clave pública, que se utiliza para cifrar mensajes y puede ser distribuida libremente, y una clave privada, que se utiliza para descifrarlos y debe mantenerse en secreto.
+                </p>
+                <ul class="list-disc list-inside text-gray-700 ml-4 space-y-2">
+                    <li>**Cifrado Asimétrico:** Permite que cualquier persona envíe un mensaje cifrado a un destinatario, pero solo el destinatario puede leerlo.</li>
+                    <li>**Firmas Digitales:** Se utiliza para verificar la autenticidad de un mensaje o documento, garantizando que el emisor es quien dice ser (no repudio).</li>
+                    <li>**TLS/SSL:** Es el componente clave en el protocolo que asegura las conexiones HTTPS que usamos en la web.</li>
+                </ul>
+            </div>
+            
+            <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+                <h2 class="text-2xl font-bold text-indigo-900 mb-2">Evento Importante: La Patente y su Expiración</h2>
+                <p class="text-gray-700">
+                    Aunque el concepto de criptografía de clave pública fue desarrollado primero en secreto por el GCHQ británico, el algoritmo RSA fue el primero en ser patentado en EE. UU. en 1983. Su expiración en el año 2000 fue un evento trascendental, ya que permitió que RSA se convirtiera en un **estándar libre** para el cifrado en todo el mundo, impulsando enormemente la seguridad en el comercio electrónico y las comunicaciones.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center text-sm">
+            &copy; 2024 [Tu Nombre Completo]. Desarrollado con HTML y Tailwind CSS.
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>
