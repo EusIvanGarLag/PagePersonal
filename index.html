@@ -6,7 +6,6 @@
     <title>Página Personal - Eusebio Ivan Garcia Laguna</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Estilo para que la imagen de perfil sea un círculo */
         .profile-picture {
             object-fit: cover;
             width: 150px;
@@ -20,7 +19,8 @@
     <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <a href="index.html" class="text-2xl font-bold text-gray-800 hover:text-indigo-600 transition duration-300">
-Eusebio Ivan Garcia Laguna            </a>
+                Eusebio Ivan Garcia Laguna
+            </a>
             
             <button id="menu-button" class="md:hidden text-gray-800 focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path id="open-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path><path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -30,8 +30,8 @@ Eusebio Ivan Garcia Laguna            </a>
                 <a href="academica.html" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Formación Académica</a>
                 <a href="hobbies.html" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Hobbies</a>
                 <a href="criptografia.html" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Criptografía</a>
-                <a href="mailto:tu.correo@ejemplo.com" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">
-                    correo
+                <a href="mailto:vavayl299@gmail.com" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">
+                    Correo
                 </a>
             </div>
         </nav>
@@ -39,26 +39,60 @@ Eusebio Ivan Garcia Laguna            </a>
         <div id="mobile-menu" class="hidden md:hidden bg-white px-2 pt-2 pb-3 space-y-1">
             <a href="academica.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50 hover:text-indigo-600">Formación Académica</a>
             <a href="hobbies.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50 hover:text-indigo-600">Hobbies</a>
-            <a href="criptografia.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50 hover:text-indigo-600">Acerca de Criptografía</a>
+            <a href="criptografia.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-indigo-50 hover:text-indigo-600">Criptografía</a>
             <a href="mailto:vavayl299@gmail.com" class="block px-3 py-2 rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50 hover:text-indigo-800">
                 Correo
-
             </a>
         </div>
     </header>
 
-    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-        <div class="flex flex-col items-center">
-            <img src="assets/foto_perfil.jpg" alt="Tu Foto de Perfil" class="profile-picture shadow-xl ring-4 ring-indigo-600 mb-6">
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <!-- Sección de Perfil -->
+        <div class="flex flex-col items-center text-center mb-16">
+            <img src="assets/foto_perfil.jpg" alt="Foto de Perfil - Eusebio Ivan Garcia Laguna" class="profile-picture shadow-xl ring-4 ring-indigo-600 mb-6">
             
             <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mb-4">
-               Eusebio Ivan Garcia Laguna
+                Eusebio Ivan Garcia Laguna
             </h1>
             
-            <p class="text-xl text-gray-600 max-w-2xl mb-12">
-                Ingeniero en Sistemas, entusiasta de la Criptografía, desarrollador web, móvil y de escritorio.
+            <p class="text-xl text-gray-600 max-w-2xl mb-6">
+                Ingeniero en Sistemas Computacionales
             </p>
 
+            <p class="text-lg text-gray-700 max-w-3xl mb-8">
+                Actualmente cursando la carrera de Ingeniería en Sistemas Computacionales en la Escuela Superior de Cómputo (ESCOM-IPN). Busco superación y crecimiento profesional, interesado en adquirir habilidades enfocadas en la carrera.
+            </p>
+
+            <!-- Enlaces de Descarga CV y Llave Pública -->
+            <div class="flex flex-wrap justify-center gap-4 mb-8">
+                <a href="./assets/Curriculum.pdf" class="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 transition duration-300">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    Descargar Curriculum.pdf
+                </a>
+                <a href="#" class="inline-flex items-center px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-900 transition duration-300">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path></svg>
+                    Mi Llave Pública
+                </a>
+            </div>
+
+            <!-- Información de Contacto -->
+            <div class="bg-white rounded-lg shadow-lg p-6 max-w-2xl w-full mb-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Contacto</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+                    <div>
+                        <p class="text-gray-600"><span class="font-semibold">Email:</span> vavayl299@gmail.com</p>
+                        <p class="text-gray-600"><span class="font-semibold">Teléfono:</span> 5521342755</p>
+                        <p class="text-gray-600"><span class="font-semibold">Ubicación:</span> Estado de México</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600"><span class="font-semibold">Web:</span> <a href="https://about.me/i-garcia" class="text-indigo-600 hover:underline" target="_blank">about.me/i-garcia</a></p>
+                        <p class="text-gray-600"><span class="font-semibold">GitHub:</span> <a href="https://github.com/EusIvanGarLag" class="text-indigo-600 hover:underline" target="_blank">EusivanGarLag</a></p>
+                        <p class="text-gray-600"><span class="font-semibold">LinkedIn:</span> <a href="https://www.linkedin.com/in/garcia-laguna-eusebio-ivan-62876b25a" class="text-indigo-600 hover:underline" target="_blank">Ver perfil</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navegación Rápida -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl w-full mb-12">
                 <a href="academica.html" class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 border-t-4 border-indigo-600">
                     <h2 class="text-2xl font-semibold text-gray-800">Formación Académica</h2>
@@ -70,27 +104,142 @@ Eusebio Ivan Garcia Laguna            </a>
                 </a>
                 <a href="criptografia.html" class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 border-t-4 border-indigo-600">
                     <h2 class="text-2xl font-semibold text-gray-800">Criptografía</h2>
-                    <p class="text-gray-500 mt-2">Biografía, historia y eventos clave.</p>
-                </a>
-            </div>
-
-            <div class="flex space-x-6">
-                <a href="https://www.linkedin.com/in/garcia-laguna-eusebio-ivan-62876b25a" target="_blank" class="text-gray-600 hover:text-indigo-600 transition duration-300">
-                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5c0 1.403-1.127 2.535-2.527 2.535-1.382 0-2.482-1.116-2.482-2.535s1.1-2.535 2.482-2.535c1.4 0 2.527 1.132 2.527 2.535zm-.01 5.927h-4.94v15.073h4.94v-15.073zm18.038 0h-4.708v7.03c0 1.954-.74 3.29-2.585 3.29-1.393 0-2.222-.888-2.59-1.745-.133-.306-.168-.727-.168-1.157v-7.418h-4.707s.06 13.79 0 15.073h4.707v-8.086c0-.428.035-.85.158-1.144.382-.907 1.25-.795 2.585-.795 1.846 0 2.586 1.336 2.586 3.29v6.735h4.708v-9.471c0-2.544-1.354-4.83-4.996-4.83z"/></svg>
-                </a>
-                <a href="https://github.com/EusIvanGarLag" target="_blank" class="text-gray-600 hover:text-indigo-600 transition duration-300">
-                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.417 2.865 8.164 6.839 9.504.498.093.682-.218.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.371-1.341-3.371-1.341-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.068-.606.068-.606 1.007.07 1.532 1.03 1.532 1.03.89 1.529 2.341 1.088 2.91.83.091-.645.352-1.088.64-1.339-2.223-.252-4.555-1.116-4.555-4.946 0-1.092.39-1.986 1.03-2.682-.104-.253-.446-1.272.098-2.656 0 0 .84-.27 2.75 1.025.798-.222 1.637-.333 2.472-.337.834.004 1.674.115 2.472.337 1.91-1.295 2.75-1.025 2.75-1.025.546 1.384.204 2.404.098 2.656.64.696 1.03 1.59 1.03 2.682 0 3.839-2.333 4.69-4.564 4.935.359.308.679.923.679 1.851 0 1.334-.012 2.41-.012 2.73 0 .267.18.583.687.482C21.135 20.181 24 16.435 24 12.017 24 6.484 19.522 2 14 2h-2z" clip-rule="evenodd"/></svg>
-                </a>
-                <a href="https://twitter.com/tuperfil" target="_blank" class="text-gray-600 hover:text-indigo-600 transition duration-300">
-                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.684l-8.084 9.172 9.077 12.046h-7.662l-6.684-8.841-8.588 8.841H.76l8.349-9.522L0 1.153h8.344l5.378 6.942L18.901 1.153zM16.941 21.657h2.368L6.824 2.19h-2.188l12.305 19.467z"/></svg>
+                    <p class="text-gray-500 mt-2">Información sobre RSA y criptografía.</p>
                 </a>
             </div>
         </div>
+
+        <!-- Sección de Educación -->
+        <section class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">Educación</h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">Ingeniería en Sistemas Computacionales</h3>
+                    <p class="text-gray-700 font-medium">Escuela Superior de Cómputo (ESCOM) - IPN</p>
+                    <p class="text-gray-600 mb-3">09/2022 - 09/2026 aprox. | Ciudad de México</p>
+                    <p class="text-gray-700">Formación en desarrollo de software y hardware, con enfoque en valores éticos, liderazgo y sostenibilidad.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">Técnico en Informática</h3>
+                    <p class="text-gray-700 font-medium">CECyT #14 "Luis Enrique Erro Soler" - IPN</p>
+                    <p class="text-gray-600 mb-3">08/2020 - 06/2022 | Ciudad de México</p>
+                    <p class="text-gray-700">Curso específico en automatización de oficinas, creación de software para móviles/ordenadores, y mantenimiento informático.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Profesional -->
+        <section class="mb-16 bg-gray-50 py-12 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">Experiencia Profesional</h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">Misticca - Página Web</h3>
+                    <p class="text-gray-700 font-medium">Misticca</p>
+                    <p class="text-gray-600 mb-3">07/2025 - 11/2025</p>
+                    <p class="text-gray-700">Empresa dedicada a la creación y venta de productos esotéricos y consultas.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">Técnico en Instalación de Redes y Tuberías</h3>
+                    <p class="text-gray-700 font-medium">Edificaciones Inteligentes</p>
+                    <p class="text-gray-600 mb-3">04/2023 - 06/2023</p>
+                    <p class="text-gray-700">Instalación de redes y cableado para telecomunicaciones.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">Proyectos Destacados</h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-indigo-600">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-2">AUTECH</h3>
+                    <p class="text-gray-600 mb-3">09/2025 - 09/2026 aprox.</p>
+                    <p class="text-gray-700">Simulador de AFD, AFND, expresiones regulares, lenguajes gramaticales y máquinas de Turing.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-indigo-600">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-2">ANSIAPP</h3>
+                    <p class="text-gray-600 mb-3">09/2021 - 09/2022</p>
+                    <p class="text-gray-700">Aplicación móvil para el cuidado emocional y tratamiento superficial de la ansiedad. <span class="font-semibold text-indigo-600">Obtuvo el 5.º puesto en el Reconocimiento de los Mejores Prototipos del IPN.</span></p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-indigo-600">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-2">Página Web sobre TIC</h3>
+                    <p class="text-gray-600 mb-3">11/2018 - 06/2018</p>
+                    <p class="text-gray-700">Sitio web dedicado a las Tecnologías de la Información y Comunicación.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Herramientas y Tecnologías -->
+        <section class="mb-16 bg-gray-50 py-12 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">Herramientas y Tecnologías</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">Lenguajes de Programación</h3>
+                    <p class="text-gray-700">C++, C, Python, Java</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">Desarrollo Web</h3>
+                    <p class="text-gray-700">HTML, CSS, JavaScript, Node.js, React</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">Bases de Datos</h3>
+                    <p class="text-gray-700">SQL, SQL PLUS, MongoDB, PostgreSQL, Oracle</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">Cloud y Otros</h3>
+                    <p class="text-gray-700">Google Cloud, Firebase, Ensamblador, BASH, VHDL</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 md:col-span-2">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">Redes</h3>
+                    <p class="text-gray-700">PKT, Armado de Cables, Protocolos y Enrutamientos</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Aptitudes y Certificados -->
+        <section class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">Aptitudes y Certificados</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                    <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Aptitudes</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full font-medium">Resiliencia</span>
+                        <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full font-medium">Trabajo en Equipo</span>
+                        <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full font-medium">Liderazgo</span>
+                        <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full font-medium">Comunicación Interpersonal</span>
+                        <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full font-medium">Persuasión</span>
+                        <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full font-medium">Inglés</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Certificados</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• Participación en «Reconocimiento de los Mejores Prototipos de IPN» (04/2022)</li>
+                        <li>• Emprendimiento social - Conectar empleo. Movistar (08/2022)</li>
+                        <li>• Cómo programar en Unity - Conecta empleo. Movistar (11/2022)</li>
+                        <li>• Google Cloud Computing (02/2025 - 07/2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Redes Sociales -->
+        <div class="flex justify-center space-x-6 mb-12">
+            <a href="https://www.linkedin.com/in/garcia-laguna-eusebio-ivan-62876b25a" target="_blank" class="text-gray-600 hover:text-indigo-600 transition duration-300">
+                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5c0 1.403-1.127 2.535-2.527 2.535-1.382 0-2.482-1.116-2.482-2.535s1.1-2.535 2.482-2.535c1.4 0 2.527 1.132 2.527 2.535zm-.01 5.927h-4.94v15.073h4.94v-15.073zm18.038 0h-4.708v7.03c0 1.954-.74 3.29-2.585 3.29-1.393 0-2.222-.888-2.59-1.745-.133-.306-.168-.727-.168-1.157v-7.418h-4.707s.06 13.79 0 15.073h4.707v-8.086c0-.428.035-.85.158-1.144.382-.907 1.25-.795 2.585-.795 1.846 0 2.586 1.336 2.586 3.29v6.735h4.708v-9.471c0-2.544-1.354-4.83-4.996-4.83z"/></svg>
+            </a>
+            <a href="https://github.com/EusIvanGarLag" target="_blank" class="text-gray-600 hover:text-indigo-600 transition duration-300">
+                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.417 2.865 8.164 6.839 9.504.498.093.682-.218.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.371-1.341-3.371-1.341-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.068-.606.068-.606 1.007.07 1.532 1.03 1.532 1.03.89 1.529 2.341 1.088 2.91.83.091-.645.352-1.088.64-1.339-2.223-.252-4.555-1.116-4.555-4.946 0-1.092.39-1.986 1.03-2.682-.104-.253-.446-1.272.098-2.656 0 0 .84-.27 2.75 1.025.798-.222 1.637-.333 2.472-.337.834.004 1.674.115 2.472.337 1.91-1.295 2.75-1.025 2.75-1.025.546 1.384.204 2.404.098 2.656.64.696 1.03 1.59 1.03 2.682 0 3.839-2.333 4.69-4.564 4.935.359.308.679.923.679 1.851 0 1.334-.012 2.41-.012 2.73 0 .267.18.583.687.482C21.135 20.181 24 16.435 24 12.017 24 6.484 19.522 2 14 2h-2z" clip-rule="evenodd"/></svg>
+            </a>
+            <a href="https://about.me/i-garcia" target="_blank" class="text-gray-600 hover:text-indigo-600 transition duration-300">
+                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+            </a>
+        </div>
     </main>
 
-    <footer class="bg-gray-800 text-white py-6 mt-12">
+    <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto px-4 text-center text-sm">
-            &copy; 2024 Garcia Laguna Eusebio Ivan. Desarrollado con HTML y Tailwind CSS.
+            &copy; 2025 Garcia Laguna Eusebio Ivan. Desarrollado con HTML y Tailwind CSS.
         </div>
     </footer>
 
