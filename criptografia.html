@@ -76,17 +76,31 @@
                 </p>
             </div>
         </div>
-
+<section id="criptografia" class="mb-20">
+    <h2 class="text-3xl font-bold mb-10 border-b-4 border-indigo-500 inline-block">Acerca de Criptografía</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+        <div class="bg-gray-900 p-6 rounded-2xl shadow-2xl">
+            <h3 class="text-white text-xl font-bold mb-4">Video Informativo: PGP</h3>
+            <video controls class="w-full rounded-lg border-2 border-indigo-400">
+                <source src="assets/presentacionPGP.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+            <p class="text-indigo-300 mt-4 text-sm italic">Video explicativo sobre Pretty Good Privacy (PGP) donde aparezco hablando de 3 a 5 minutos.</p>
+        </div>
+</section>
         <!-- Sección de Mi Llave Pública -->
         <div class="mt-12">
             <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg p-8 text-white shadow-xl">
                 <h2 class="text-3xl font-bold mb-4">Mi Llave Pública RSA</h2>
                 <p class="text-lg mb-6">Como parte de mi interés en criptografía, estoy generando mi propia llave pública RSA. Próximamente podrás descargarla aquí para comunicaciones seguras.</p>
-                <a href="#" class="inline-flex items-center px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg shadow-md hover:bg-gray-100 transition duration-300">
+                <a href="./assets/public_key.pem" class="inline-flex items-center px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg shadow-md hover:bg-gray-100 transition duration-300">
                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path></svg>
-                    Mi Llave Pública
+                    Mi Llave Pública RSA
                 </a>
-                <p class="text-sm mt-4 opacity-90">⚠️ La llave se generará en la práctica de RSA próximamente</p>
+                                <a href="#" class="inline-flex items-center px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-900 transition duration-300">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path></svg>
+                    Mi Llave Pública EDCSA (Pendiente)
+                </a>
             </div>
         </div>
 
